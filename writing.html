@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="writing.css">
+    <title>Writing</title>
+</head>
+<body>
+<script src="writing.js"></script> 
+<h1 id="start_writing"> HOW LONG WILL YOU WRITE? </h1>
+
+<form id="writing_time">
+    <input type="text">
+    <input type="submit" onclick="process_time()">
+</form>
+
+<button type="button" id = "start" onclick = "start_timer()">Start</button>
+<p id = "timer">3</p>
+
+<div class="textarea">
+<textarea id="userinput" disabled></textarea>
+</div>
+
+<div id="display_block">
+<p id="display"></p>
+</div>
+
+<button type="button" id="copy" onclick="copy()">Copy</button>
+
+
+</body>
+</html>
